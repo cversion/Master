@@ -1,0 +1,19 @@
+Tarea Individual - Módulo 6
+Descripción
+Después de leer la documentación del módulo 6, crear una cuenta en GitHub o Bitbucket y añadir las tareas que ha realizado hasta el momento de la clase de Programación Orientada a Objetos en un repositorio con dos ramas diferentes: Master y Development:
+
+Instalar Git en su computadora y ejecutar algunos comandos para sincronizar sus archivos locales con los repositorios remotos.
+
+Adjuntar una portada con la dirección URL de su repositorio.
+
+Objetivo: Familiarizarse con los sistemas de Control de versiones.
+
+Valor: 3%
+
+Fecha de Vencimiento: 13 de Julio de 2018
+
+
+
+
+
+Tarea ya subida a la plataforma.

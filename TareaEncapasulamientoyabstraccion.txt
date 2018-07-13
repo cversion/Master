@@ -1,0 +1,64 @@
+package TareaIIParcial;
+
+public class Calculadora {
+
+    public static void main(String arg[]) {
+                       
+
+        Fabricante1 c = new Fabricante1();
+
+
+        System.out.println(c.getfabrica());
+
+        Fabricante2 ti = new Fabricante2();
+
+
+        System.out.println(ti.getfabrica());
+
+
+
+        Fabricante3 hp = new Fabricante3();
+
+ 
+        System.out.println(hp.getfabrica());
+    }
+
+    public static abstract class electronic {
+
+        abstract String getfabrica();
+
+    }
+
+    public static class Fabricante1 extends electronic {
+
+
+        public String getfabrica() {
+            return "Marca: Casio";
+        }
+
+    }
+
+
+    public static class Fabricante2 extends electronic {
+
+      
+
+        public String getfabrica() {
+            return "Marca: Texas Instrumens";
+        }
+
+    }
+
+
+
+    public static class Fabricante3 extends electronic {
+
+       
+
+        public String getfabrica() {
+            return "Marca: Hewlett Packard";
+        }
+
+    }
+
+}

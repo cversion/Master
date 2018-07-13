@@ -1,0 +1,30 @@
+Ejercicios prácticos # 2: Parcial I
+public class Objeto {
+String mensaje;
+int num1;
+double n1,n2,res;
+public static void main(String[] args) {
+//1. Objeto imprime mensaje
+Objeto objeto1= new Objeto();
+objeto1.mensaje="Soy el mejor Programador";
+System.out.println("1."+ objeto1.mensaje);
+//2. Objeto aprobado o reprobado
+Objeto objeto2=new Objeto();
+objeto2.num1=60;
+if(objeto2.num1>=70){
+System.out.println("2. Aprobado");
+}else{
+System.out.println("2. Reprobado");
+}
+//3. Suma
+/* Objeto objeto3=new Objeto();
+n1=8;
+n2=6;
+objeto3.setNumero1(n1);
+objeto3.setNumero2(n1);
+objeto3.setResultado();
+objeto3.setSuma();
+res=objeto3.getResultado;
+System.out.println("3. La suma:"+res );\*
+}
+}

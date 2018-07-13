@@ -1,0 +1,44 @@
+Universidad Tecnológica de Honduras
+UTH
+
+•	Asignatura: Programación Orientada a Objetos
+
+
+•	Ensayo Programación Orientada a Objetos(POO)
+
+•	Modalidad Online
+
+•	Catedrático: Mae. Arnol Gutiérrez
+
+
+•	Alumno: Darwins G. Maradiaga
+
+•	Cuenta: 201510011577
+
+•	Fecha: 11 de junio del 2018
+
+
+
+
+
+
+
+Introducción
+Este ensayo tiene como propósito primordial explicar lo que significa la Programación Orientada a Objetos (POO), De lo que he estudiado a lo largo de esta experiencia durante el primer periodo de POO.
+Desarrollo
+La programación Orientada a Objetos (POO), es un paradigma de la programación orientada a Objetos.  Hablar de Programación Orientada es hablar del tipo de programación que trabaja con Objetos que luego manipulas datos y funciones, es una de sus caracteristicas.
+
+La POO sirve para desarrollar en muchos de los lenguajes comunes de hoy en día manteniendo un mismo esquema o standard. 
+Entre los lenguajes orientados a objetos se sobresale Java, pero también esta PHP.
+En esta forma de programación se trabaja con: Clases, Métodos, Variables, Herencia, Polimorfismos, Ciclos. Formas de decisión lógicas, etc. La programación Orientada a Objetos se ha constituido como una de las formas más populares de programar. Lo que vuelve o caracteriza la POO, es que transforma código en situaciones de la vida real. Por ejemplo: Podemos crear un código en el que hagamos que en su salida presente una serie de datos necesarios para satisfacer una necesidad de un usuario. Lo que hace relacionar la POO con el mundo real es que todo cuanto existe cohesiona en objetos. 
+Voy a conceptualizar lo que entiendo referente a POO, Clases: puedo decir que es la colección de objetos. Tiene las características necesarias para crear nuevos objetos. En clases contiene las características de un objeto, por ejemplo la clase Ave; tiene alas, patas, color, pico.
+Las clases tienen propiedades: Las propiedades son las características de los objetos. Cuando definimos una propiedad normalmente especificamos su tipo y nombre. Nos podemos decir que las propiedades son algo así como variables donde almacenamos datos relacionados con los objetos. 
+Método: Método es el que permite acceso a los atributos de la clase. Este es local en la clase.
+Instancia de Clases: No son más que los llamados Objetos de Clase, a partir de una clase principal.
+Variables: Hay según el tipo de datos que se requiera y según lo establecido para los atributos de la clase y los objetos que interactúen entre sí.
+Herencia: La palabra indica o su significado en la vida real y fuera de un código de programación, significa que las clases se van heredando, podría decir que en cascada. Porque son nombradas como clases padre, hijos. En resumen, esta ventaja de la programación Orientada a Objetos ofrece es que nos evita estar reescribiendo código, pues solamente se le atribuyen atributos que clases padre e hijo comparten entre sí. Ejemplo: Un trabajador está en una planilla donde hay varios empleados, este a su vez pertenece a un departamento, pero un trabajador puede enfermar. O uno de los ejemplos más claros puede ser en La clase avión, hay Comerciales, Militares, de carga.
+Polimorfismos, también llamado sobrecarga de datos: Se entiende que es la forma en que un código puede tener relación con objetos de varios tipos.
+Conclusión
+Para entender cómo funciona el paradigma de la programación orientada a objetos es necesario experimentar con un programa como una variedad de objetos que interactúan entre sí enviándose mensajes y cambiando su estado durante su interacción.
+Resolver un problema bajo el paradigma de la programación orientada a objetos implica determinar y caracterizar los diferentes objetos que intervienen en el problema, definir sus propiedades y métodos y ponerlos a interactuar.
+

@@ -1,0 +1,103 @@
+Nombre: Darwins Maradiaga|Cuenta:201510011577
+Explicación de Funcionamiento de Código
+Mi código esta basado en lo siguiente:
+Tome como superclase Empleado, luego la primera subclase Gerente depende de los atributos de la superclase Empleado. Luego hice en cascada la siguiente la segunda subclase presidente la cual depende de la subclase Gerente.
+A lo largo de todo el código deje comentarios para que se entienda de alguna forma lo que finalmente ejecuta el código. El código esta elaborado en JAVA NetBeans.
+Inicio Código:
+//Metodo Main clase
+package TareaModulo5;
+//Esta clase contiene el main para arrancar la aplicacion
+public class HerenciaMain {
+//metodo main
+public static void main(String[]args){
+//Creamos objeto de la clase presidente
+Presidente pre = new Presidente(2018,"Darwins Maradiaga","901-856-87",15000.00,"Tecnologia",150000.11);
+printEmpleado(pre);
+}
+//Creamos el metodo para imprimir
+//declare variable em para que llame el objeto empleado
+public static void printEmpleado(Empleado em){
+System.out.println("Identificacion:"+ em.getEmpleadoid());
+System.out.println("Nombre Empleado:"+ em.getNombre());
+System.out.println("Seguro Social:"+ em.getSeguro());
+System.out.println("Sueldo:"+ em.getSalario());
+}
+}
+//Superclase
+package TareaModulo5;
+//Superclase Empleado
+public class Empleado {
+//Declaracion de variables
+private int empleadoid;
+private String nombre;
+private String seguro;
+private double salario;
+//Inicializacion de todos los campos
+public Empleado(int empleadoid, String nombre, String seguro, double salario) {
+this.empleadoid = empleadoid;
+this.nombre = nombre;
+this.seguro = seguro;
+this.salario = salario;
+}
+//Creacion getters y setters
+public int getEmpleadoid() {
+return empleadoid;
+}
+//Se elimino Set de empleadoid para encapsularlo
+public String getNombre() {
+return nombre;
+}
+public void setNombre(String nombre) {
+this.nombre = nombre;
+}
+public String getSeguro() {
+return seguro;
+}
+//Se elimino Set de seguro para encapsularlo
+public double getSalario() {
+return salario;
+}
+//Se elimino Set de salario para encapsularlo
+//Funcion publica, inicializa variable incremento y aunmenta segun el valor que ingrese
+public void raiseSalario(double incremento){
+this.salario+=incremento;
+}
+}
+//SubClase Gerente
+package TareaModulo5;
+//Aplicando herencia con la para extends(Subclase Gerente
+public class Gerente extends Empleado {
+//Creacion de variables a utilizar en subclase
+private String ndepartamento;
+//Creacion de constructor con campos
+public Gerente(String ndepartamento, int empleadoid, String nombre, String seguro, double salario) {
+super(empleadoid, nombre, seguro, salario);//llamamos al constructor empleado
+this.ndepartamento = ndepartamento;
+}
+//Creacion de Setters y Getters
+public String getNdepartamento() {
+return ndepartamento;
+}
+public void setNdepartamento(String ndepartamento) {
+this.ndepartamento = ndepartamento;
+}
+}
+//SubClase Presidente
+package TareaModulo5;
+//Esta es una Subclase que va en cascada de subclase(2) Gerente
+public class Presidente extends Gerente{
+//Atributos
+private double Presupuesto;
+//Generamos campos para la variable presupuesto
+public Presidente(int empleadoid,String nombre,String seguro,double salario,String ndepartamento,double Presupuesto) {
+super(ndepartamento, empleadoid, nombre, seguro, salario);
+this.Presupuesto = Presupuesto;
+}
+//Generacion de Setters y Getters
+public double getPresupuesto() {
+return Presupuesto;
+}
+public void setPresupuesto(double Presupuesto) {
+this.Presupuesto = Presupuesto;
+}
+}

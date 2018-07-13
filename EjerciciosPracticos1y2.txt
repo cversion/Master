@@ -1,0 +1,56 @@
+Ejercicios prácticos # 1: Programando en Java
+Realizar los siguientes ejercicios básicos para imprimir en consola los datos de los siguientes requerimientos:
+1. Crear el código que imprima la siguiente salida: "Hola, soy Arnol Gutiérrez" (Usar su nombre).
+Codigo:
+package TareasIParcial;
+public class MiNombre {
+public static void main(String []args){
+String nombre= "Darwins Gilberto Maradiaga";
+System.out.println("Mi nombre es: " + nombre);
+}
+}
+2. Crear un programa que imprima en consola todas las operaciones aritméticas de dos números enteros (suma, resta, multiplicación, divición, mod)
+Codigo:
+package TareasIParcial;
+public class OperacionesBasicas {
+public static void main(String[] args) {
+//Declaramos las variables Numericas
+int numero1 = 4;
+int numero2 = 2;
+int suma = 0;
+int resta = 0;
+int division = 0;
+int modulo = 0;
+//Declaramos las variables tipo texto
+String Suma = "La suma es:";
+String Resta = "La resta es:";
+String Division = "La division es:";
+String Modulo = "El Modulo es:";
+//hacemos las operaciones
+suma = numero1 + numero2;
+resta = numero1 - numero2;
+division = numero1 / numero2;
+modulo = numero1 % numero2;
+//imprimir en consola
+System.out.println(Suma + suma);
+System.out.println(Resta + resta);
+System.out.println(Division + division);
+System.out.println(Modulo + modulo);
+}
+}
+3. Dadas las variables de tipo int M = 6, T = 1, K = -10 indicar si la evaluación de estas expresiones daría como resultado verdadero o falso:
+M > T
+T / K == -5
+(M+T == 7) || (M-T == 5)
+Código:
+3. Crear un arrelo que guarde e imprima 10 nombres de tus compañeros de la clase.
+Codigo:
+5. Crear un arreglo multidimensional que guarde más datos personales tus compañeros de clase (nombre, apellido, carrera, lugarTrabajo), tomando como referencia de la información colocada en el foro Conociendonos. Llenar 5 registros Ejemplo:
+Daniel
+Medina
+Electronica
+TEST
+Monica
+Jiz
+Computacion
+I
